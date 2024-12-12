@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dad{
+    width: 25%;
+    height: 98vh;
+    background-color: black;
+    border-radius: 40px;
+    border: 10px double rgb(125, 89, 63);
+    margin: auto;
+    position: fixed;
+    /* overflow: auto;
+     */
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' ,
+  'opsz' 48
+}
+.fb{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.sb{
+    display: inline-flex;
+    justify-content: space-evenly;
+    /* background-color: gold; */
+    width: 44%;
+    margin-top: 10px;
+    align-items: center;
+}
+.fb p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  rgb(98, 93, 93);;
+    flex-wrap: wrap;
+
+}
+.ob{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.fr{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 23px; 
+    font-weight: 600;
+}
+
+.rr{
+    background-color: rgb(98, 93, 93);
+    border-radius: 300px;
+    width: 25px;
+height: 24px;
+display: flex;
+align-items: center;
+margin-left: 6px;
+}
+.btn2 p{
+    margin-left: 8px;
+    color: black;
+    
+}
+.btn2{
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color:  rgb(98, 93, 93);;
+    flex-wrap: wrap;
+}
+
+.next{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pg img{width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    
+
+}
+
+.btn1{
+    background: none;
+    border: none;
+  color:   rgb(98, 93, 93);
+}
+.btn3{
+    background: none;
+    border: none;
+  color:   rgb(98, 93, 93);
+}
+.btn4{
+    background: none;
+    border: none;
+  color:   rgb(98, 93, 93);
+}
+.pikin{
+    background-color:  rgb(37, 30, 30);;
+    border-radius: 30px 30px 0 0;
+    position: fixed;
+    width: 25%;
+}
+.content2{
+    background-color: rgb(14, 12, 12);
+    height: 79vh;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    overflow: auto;
+    border-radius: 0 0 30px 30px;
+    
+}
+.step1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+.pg{
+    margin-left: 10px;
+}
+.sms{
+    margin-left: 20px;
+}
+.er{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.u{
+    font-size: 15px;
+    color: gray;  
+}
+
+.vvd{
+    width:80px ;
+    height: 80px;
+    background-color: green;
+    border-radius: 300px;
+    display: flex;
+    position: sticky;
+   left: 240px;
+   bottom: 50px;
+    
+    
+}
+
+
+
+
+
+.ub{
+    margin-left: 160px;
+}
+.ub p{color: green;}
+.ht{
+    background-color: rgb(128, 229, 128);
+    border-radius: 300px;
+    width: 25px;
+height: 24px;
+display: flex;
+align-items: center;
+margin-left: 6px;
+}
+.ht p{
+    margin-left: 8px;
+    color: black;
+}
+.bb{
+    color: gray;
+    margin-left: 160px;
+}
+
+.tr{ color: gray;
+    margin-left: 160px;}
+    .nb{
+        color: gray;
+        margin-left: 160px;
+    }
+
+
+
+    ::-webkit-scrollbar{
+        width: 20px; 
+    } 
+    ::-webkit-scrollbar-track{
+        background: white;
+        margin-block: 400px;
+        border-radius: 100vw;
+
+
+
+    }
+    ::-webkit-scrollbar-thumb{
+        background: hsl(120, 1%, 41%);
+        
+        border-radius: 100vw;
+    
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background: hsl(120, 140%, 10%);
+    } 
+
+
+    .content3{
+        background-color: black;
+    height: 79vh;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    border-radius: 0 0 30px 30px;
+    top: 138px; 
+    overflow: auto;
+    display: none;
+    }
+    .pop:focus-within .content3{
+        display: block;
+        
+    }
+    .pop:focus-within .test2{
+        width: 40px;
+    }
+    .pop:focus-within .btn3{
+        color: green;
+    }
+
+    .bmw img{
+        width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+    .step2{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .v4{
+      margin-top: -10px;
+      margin-left: 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .v6{
+        margin-left: 10px;
+        color: rgb(125, 113, 113);
+        font-size: 16px;
+    }
+
+    .ford{
+        margin-top: 15px;
+        margin-left: 15px;
+        color: rgb(125, 113, 113);;
+    }
+
+    .venza img{
+        width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 4px solid green;
+    }
+    .step3{
+        display: flex;
+        align-items: center;
+    }
+
+    .a{
+        margin-top: -10px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;  
+    }
+    .b{
+        margin-left: 10px;
+        color: rgb(125, 113, 113);
+        font-size: 18px; 
+        margin-top: 4px;
+    }
+
+    .honda img{
+        width: 70px;
+        height: 70px;
+        border-radius: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: 4px inset green;
+    }
+    .step4{
+        display: flex;
+        align-items: center;
+    }
+    .c{
+        margin-top: -10px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;  
+    }
+    .d{
+        margin-left: 10px;
+        color: rgb(125, 113, 113);
+        font-size: 18px; 
+        margin-top: 4px;
+    }
+
+    .toyota img{
+        width: 70px;
+        height: 70px;
+        border-radius: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: 4px dashed green;
+    }
+    .step5{
+        display: flex;
+        align-items: center;
+    }
+    .e{
+        margin-top: -10px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;  
+    }
+    .f{
+        margin-left: 10px;
+        color: rgb(125, 113, 113);
+        font-size: 18px; 
+        margin-top: 4px;
+    }
+
+    .range img{
+        width: 70px;
+        height: 70px;
+        border-radius: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: 4px dotted green;
+    }
+    .step6{
+        display: flex;
+        align-items: center;
+    }
+    .g{
+        margin-top: -10px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;  
+    }
+    .h{
+        margin-left: 10px;
+        color: rgb(125, 113, 113);
+        font-size: 18px; 
+        margin-top: 4px;
+    }
+    .test{
+        background-color: green;
+        border: 4px;
+        height: 2px;
+        width: 0px;
+    }
+   .yyy:focus-within .test{
+width: 70px;
+color: green;
+   }
+   .btn2:focus-within{
+    color: green;
+
+   }
+   .rr:hover{
+    background-color: green;
+   }
+   .test2{
+    background-color: green;
+    border: 4px;
+    height: 2px;
+    width: 0px;
+   }
+
+   .content4{
+    background-color: black;
+    height: 79vh;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    border-radius: 0 0 30px 30px;
+    top: 138px; 
+    overflow: auto;
+    display: none;
+    
+   }
+   .call:focus-within .content4{
+    display: block;
+   }
+   .step8 img{
+    width: 140px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: -20px;
+    
+   }
+   .last{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+   .i{
+    margin-top: -10px;
+        margin-left: -15px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;  
+   }
+   .j{
+    margin-left: -15px;
+        color: rgb(125, 113, 113);
+        font-size: 18px; 
+        margin-top: 4px;
+   }
+
+   .step9{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(125, 113, 113);
+   }
+   .porche img{
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.porche{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.step10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.k{
+    margin-top: 5px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;   
+}
+.l{
+    margin-left: 10px;
+    color: rgb(125, 113, 113);
+    font-size: 18px; 
+    margin-top: 4px;
+}
+.m{
+    margin-right: 25px;
+}
+
+.step11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.gwagon{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.gwagon img{
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.n{
+    margin-top: 5px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;   
+}
+.o{
+    margin-left: 10px;
+    color: rgb(125, 113, 113);
+    font-size: 18px; 
+    margin-top: 4px; 
+}
+.p{
+    margin-right: 25px;   
+}
+.step12{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.bugatti{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+}
+.bugatti img{
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.q{
+    margin-top: 5px;
+        margin-left: 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+}
+.r{
+    margin-left: 10px;
+    color: rgb(125, 113, 113);
+    font-size: 18px; 
+    margin-top: 4px; 
+}
+.s{
+    margin-right: 25px;    
+}
+.ok{
+    background-color: green;
+        border: 4px;
+        height: 2px;
+        width: 0px;
+}
+.call:focus-within .ok{
+    width: 40px;
+}
+.btn4:focus-within{
+    color: green;
+}
